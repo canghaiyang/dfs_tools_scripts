@@ -44,7 +44,9 @@ export HADOOP_HOME=/home/ych/hadoop-3.1.4
 export PATH=$HADOOP_HOME/bin:$HADOOP_HOME/sbin:$PATH
 
 
-
+export HIVE_HOME=/home/ych/apache-hive-3.1.2-bin
+export HIVE_CONF_DIR=$HIVE_HOME/conf
+export PATH=$HIVE_HOME/bin:$PATH
 
 
 
