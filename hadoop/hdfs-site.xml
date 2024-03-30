@@ -33,7 +33,7 @@
 
   <property>
     <name>dfs.replication</name>
-    <value>3</value>
+    <value>1</value>
     <description>The number of block replication, 
     the default configuration is 3, 
     should be greater than the number of datanode machines</description>
@@ -48,5 +48,10 @@
     but all other behavior is unchanged.
     </description>
   </property>
+  <property>
+	  <name>dfs.webhdfs.enabled</name>
+	  <value>true</value>
+  </property>
+
 
 </configuration>

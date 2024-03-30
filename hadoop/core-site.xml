@@ -43,7 +43,7 @@
 
 <property>
   <name>fs.defaultFS</name>
-  <value>hdfs://192.168.7.101:9000</value>
+  <value>hdfs://master:9000</value>
   <description>HDFS的URI,文件系统://namenode标识:端口</description>
 </property>
 
@@ -51,6 +51,15 @@
   <name>hadoop.tmp.dir</name>
   <value>/home/ych/hadoopData</value>
   <description>namenode 上传到 hadoop 的临时文件夹</description>
+</property>
+
+<property>
+    <name>hadoop.proxyuser.root.hosts</name>
+    <value>*</value>
+</property>
+<property>
+    <name>hadoop.proxyuser.root.groups</name>
+    <value>*</value>
 </property>
 
 
